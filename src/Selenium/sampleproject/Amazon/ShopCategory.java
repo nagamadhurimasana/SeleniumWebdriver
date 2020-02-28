@@ -7,7 +7,7 @@ public class ShopCategory {
 	
 	public static void main(String[] args) throws InterruptedException {
 
-		System.setProperty(webdriver.chrome.driver, "F:\\Madhuri\\Selenium_WorkSpace\\SeleniumProject\\Driver\\chromedriver.exe")
+		System.setProperty("webdriver.chrome.driver", "F:\\Madhuri\\Selenium_WorkSpace\\SeleniumProject\\Driver\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		

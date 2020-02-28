@@ -28,7 +28,7 @@ public class WordPressLogin {
 		
 	}
 	
-	@DataProvider(name='wordpressData');
+	@DataProvider(name="wordpressData")
 	public Object[][] passData() {
 		
 		Object[][] data = new Object[3][2];
