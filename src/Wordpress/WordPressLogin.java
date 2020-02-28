@@ -13,6 +13,7 @@ public class WordPressLogin {
 		
 		System.setProperty("webdriver.chrome.driver", "F:\\Madhuri\\Selenium_WorkSpace\\SeleniumProject\\Driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
+		System.out.println("HI");
 		
 		try {
 			driver.get("http://demosite.center/wordpress/wp-login.php");
